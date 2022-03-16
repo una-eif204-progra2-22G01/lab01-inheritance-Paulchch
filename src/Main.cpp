@@ -16,5 +16,18 @@ int main(){
     std::cout<<d1.toString();
     std::cout<<d2.toString();
     //std::cout<< "Hola mundo!" <<std::endl;
+    // function main begins program execution
+/*
+int main(int argc, const char *argv[]) {
+    std::cout << "Welcome to the UNA!" << std::endl;
+
+    Derived1 derived1;
+    derived1.do_semothing();
+
+    Derived2 derived2;
+    derived2.do_semothing();
+
+}  // end function main*/
+
     return 0;
 }
