@@ -1,11 +1,11 @@
 //
-// Created by pabli on 15/3/2022.
+// Created by Pablo Morera on 15/3/2022.
 //
 
 #include "Base.h"
 
-Base::Base() { }
-Base::~Base() { }
+Base::Base()=default;
+Base::~Base() =default;
 
 std::string Base::toString() const{
     std::stringstream s;

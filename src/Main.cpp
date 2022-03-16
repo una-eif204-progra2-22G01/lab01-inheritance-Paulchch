@@ -8,6 +8,9 @@ int main(){
     Derived1 d1;
     b1.do_something();
     d1.do_something();
+    std::cout<< std::endl;
+    std::cout<<b1.toString();
+    std::cout<<d1.toString();
     //std::cout<< "Hola mundo!" <<std::endl;
     return 0;
 }
