@@ -12,22 +12,11 @@ int main(){
     d1.do_something();
     d2.do_something();
     std::cout<< std::endl;
+    b1.setNumObjeto(1);
+    d1.setNumObjeto(2);
+    d2.setNumObjeto(3);
     std::cout<<b1.toString();
     std::cout<<d1.toString();
     std::cout<<d2.toString();
-    //std::cout<< "Hola mundo!" <<std::endl;
-    // function main begins program execution
-/*
-int main(int argc, const char *argv[]) {
-    std::cout << "Welcome to the UNA!" << std::endl;
-
-    Derived1 derived1;
-    derived1.do_semothing();
-
-    Derived2 derived2;
-    derived2.do_semothing();
-
-}  // end function main*/
-
     return 0;
 }

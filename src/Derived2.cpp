@@ -13,5 +13,7 @@ void Derived2::do_something() {
 std::string Derived2::toString() const {
     std::stringstream s;
     s<< "Este es un objeto Derived2!"<<std::endl;
+    s<<"Numero objeto: "<<numObjeto<<std::endl;
+    s<<std::endl;
     return s.str();
 }

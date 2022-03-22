@@ -10,6 +10,8 @@ Derived1::~Derived1() = default;
 std::string Derived1::toString() const {
     std::stringstream s;
     s<< "Este es un objeto Derived1"<<std::endl;
+    s<<"Numero objeto: "<<numObjeto<<std::endl;
+    s<<std::endl;
     return s.str();
 }
 

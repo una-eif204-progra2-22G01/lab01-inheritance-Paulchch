@@ -7,14 +7,15 @@
 
 #include<iostream>
 #include<sstream>
-/* Recordemos que las clases minimo
- * debe de tener: Constructores,
- * destructores, propiedades,
- * métodos get/set, y toString()*/
+
 class Base {
-private:
-    //de momento nada aquí
-    //sin atributos de momento
+protected:
+    int numObjeto;
+public:
+    int getNumObjeto() const;
+
+    void setNumObjeto(int numObjeto);
+
 public:
     Base();
     ~Base();
