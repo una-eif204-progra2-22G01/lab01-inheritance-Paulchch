@@ -12,7 +12,7 @@ public:
     Derived1();
     ~Derived1();
     void do_something() override;
-    std::string toString() const;
+    std::string toString() const override;
 };
 
 
